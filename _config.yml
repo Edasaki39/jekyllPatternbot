@@ -1,2 +1,20 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Dino Rescue"
+  description:
+    A small local dinasaur rescue organization specializing in herbivores.
+  font_url: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+  font_url: "https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap"
+  colors:
+    background: "--color-secondary-light"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    colors.primary: |
+      The primary colors represent herbivores & plants & greenery. They should be used for text and in foregrounds.
+    typefaces.primary: |
+      Noto Sans JP を使用。従来の明朝体により近い字体。
+    typefaces.secondary: |
+      M PLUS 1pを使用。従来のゴシック体により近く、デザイン的にも洗練されている。

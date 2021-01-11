@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h2>Dinos</h2>
+
+<div class="grid">
+  {% for dino in site.data.dinos %}
+  <div class="unit xs-a s-a m-1-3">
+    {% pattern cards/image title=dino.title details=dino.detail image=dino.image button_text=dino.button_text %}
+  </div>
+  {% endfor %}
+</div>

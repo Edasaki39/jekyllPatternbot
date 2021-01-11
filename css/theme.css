@@ -1,0 +1,46 @@
+:root {
+  --color-primary: olive;
+  --color-primary-dark: #4a4a00;
+  --color-primary-light: #9d9d00;
+
+  --color-secondary: #d7be5c;
+  --color-secondary-dark: #9c8a43;
+  --color-secondary-light: cornsilk;
+
+  --font-primary: "Noto Sans JP", serif;
+  --font-secondary: "M PLUS 1p", sans-serif;
+
+  --border-radius: 4px;
+}
+
+/* @utility Apply the secondary typeface */
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply a light background color to an element */
+.section-light {
+  background-color: var(--color-secondary-light);
+}
+
+/* @utility Apply a dark background color to an element */
+.section-dark {
+  background-color: var(--color-secondary-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-primary-dark);
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+}
+
+dt {
+  font-weight: bold;
+}
